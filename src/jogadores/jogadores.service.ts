@@ -2,7 +2,6 @@ import { CriarJogadorDto } from './dtos/criar-jogador.dto';
 /* eslint-disable prettier/prettier */
 import { Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { Jogador } from './interfaces/jogador.interface';
-//import * as uuid from 'uuid/v1'
 import { v4 as uuidv4} from 'uuid'
 
 @Injectable()
